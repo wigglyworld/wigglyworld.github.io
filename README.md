@@ -1,4 +1,4 @@
-wigglyworld.github.io
+## wigglyworld.github.io
 =====================
 
-WigglyWorld Blog
+[WigglyWorld Blog](http://wigglyworld.github.io)
