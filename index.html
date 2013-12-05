@@ -1,0 +1,19 @@
+---
+layout: default
+title: WigglyWorld Blog
+---
+
+<div id="home">
+  <h1>Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h1>Acknowledgment and gratitude: </h1>
+  <ul class="posts">
+    <li><a href="http://github.com/mojombo/jekyll/">Jekyll:</a> A simple, blog aware, static site generator (used for this site).</li>
+    <li><a href="http://jekyllbootstrap.com/">JekyllBootstrap:</a> The Quickest Way to Blog on GitHub Pages.</li>
+  </ul>
+</div>
